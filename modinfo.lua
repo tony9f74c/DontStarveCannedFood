@@ -1,7 +1,7 @@
 name = "Canned Food"
 description = "Store your food safely forever!"
 author = "Tony" -- https://steamcommunity.com/profiles/76561198002269576
-version = "1.16b"
+version = "1.17"
 forumthread = ""
 api_version = 10
 all_clients_require_mod = true
@@ -46,40 +46,41 @@ local function preparedFoods(name, desc)
 end
 
 local dstPrefabs = {
+    {"Asparagus"},
     {"Bananas"},
     {"Berries"},
     {"BerriesJuicy", "Juicy Berries"},
     {"BlueShrooms", "Blue Mushrooms"},
     {"Cactus", "Cactus Flesh"},
+    {"CactusFlowers", "Cactus Flowers"},
     {"Carrots"},
     {"Corn"},
-    {"Durians"},
     {"Dragonfruits"},
+    {"Durians"},
     {"Eels"},
     {"Eggplants"},
+    {"Figs"},
     {"Fish"},
+    {"Garlic"},
+    {"GlowBerries", "Glow Berries"},
     {"GreenShrooms", "Green Mushrooms"},
     {"Honey"},
-    {"Pomegranates"},
-    {"Pumpkins"},
-    {"RedShrooms", "Red Mushrooms"},
-    {"Watermelons"},
-    -- light
-    {"GlowBerries", "Glow Berries"},
+    {"KelpFronds", "Kelp Fronds"},
     {"LesserGlowBerries", "Lesser Glow Berries"},
+    {"Lichens"},
     {"LightBulbs", "Light Bulbs"},
-    -- update v1.0.6
-    {"Garlic"},
+    {"MoonShrooms", "Moon Shrooms"},
     {"Onions"},
     {"Peppers"},
+    {"Pomegranates"},
     {"Potatoes"},
-    {"TomaRoots", "Toma Roots"},
+    {"Pumpkins"},
+    {"RedShrooms", "Red Mushrooms"},
     {"StoneFruits", "Stone Fruits"},
     {"Succulents"},
-    {"CactusFlowers", "Cactus Flowers"},
-    {"Asparagus"},
-    {"Lichens"},
-    -- prepared
+    {"TomaRoots", "Toma Roots"},
+    {"Watermelons"},
+    
     -- {"Meatballs"},
     -- {"MeatyStew", "Meaty Stew"},
     -- {"MandrakeSoup", "Mandrake Soup"},
