@@ -58,6 +58,14 @@ local dstPrefabs = {
     {name = "toma_roots",           cfg = "TomaRoots",          raw = "tomato"},
     {name = "watermelons",          cfg = "Watermelons",        raw = "watermelon"},
     
+    {name = "meat",                 cfg = "Meat",               raw = "meat"},
+    {name = "monster_meat",         cfg = "MonsterMeat",        raw = "monstermeat"},
+    {name = "frog_legs",            cfg = "FrogLegs",           raw = "froglegs"},
+    {name = "morsels",              cfg = "Morsels",            raw = "smallmeat"},
+    {name = "raw_fish",             cfg = "RawFish",            raw = "fishmeat"},
+    {name = "leafy_meat",           cfg = "LeafyMeat",          raw = "plantmeat"},
+    {name = "fish_morsels",         cfg = "FishMorsels",        raw = "fishmeat_small"},
+
     -- {name = "mandrake_soup",    cfg = "MandrakeSoup",    raw = "mandrakesoup"},
     -- {name = "meaty_stew",       cfg = "MeatyStew",       raw = "bonestew"},
     -- {name = "meatballs",        cfg = "Meatballs",       raw = "meatballs"},
@@ -120,6 +128,14 @@ STRINGS.NAMES.CANNED_WATERMELONS = "Canned Watermelons"
 STRINGS.NAMES.CANNED_FIGS = "Canned Figs"
 STRINGS.NAMES.CANNED_KELP = "Canned Kelp"
 STRINGS.NAMES.CANNED_MOON_SHROOMS = "Canned Moon Shrooms"
+
+STRINGS.NAMES.CANNED_MEAT = "Canned Meat"
+STRINGS.NAMES.CANNED_MONSTER_MEAT = "Canned Monster Meat"
+STRINGS.NAMES.CANNED_FROG_LEGS = "Canned Frog Legs"
+STRINGS.NAMES.CANNED_MORSELS = "Canned Morsels"
+STRINGS.NAMES.CANNED_RAW_FISH = "Canned Raw Fish"
+STRINGS.NAMES.CANNED_LEAFY_MEAT = "Canned Leafy Meat"
+STRINGS.NAMES.CANNED_FISH_MORSELS = "Canned Fish Morsels"
 
 if bbt then
     STRINGS.NAMES.CANNED_APPLES = "Canned Apples"

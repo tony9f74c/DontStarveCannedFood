@@ -1,7 +1,7 @@
 name = "Canned Food"
 description = "Store your food safely forever!"
 author = "Tony" -- https://steamcommunity.com/profiles/76561198002269576
-version = "1.17"
+version = "1.18"
 forumthread = ""
 api_version = 10
 all_clients_require_mod = true
@@ -80,7 +80,15 @@ local dstPrefabs = {
     {"Succulents"},
     {"TomaRoots", "Toma Roots"},
     {"Watermelons"},
-    
+
+    {"Meat"},
+    {"MonsterMeat", "Monster Meat"},
+    {"FrogLegs", "Frog Legs"},
+    {"Morsels"},
+    {"RawFish", "Raw Fish"},
+    {"LeafyMeat", "Leafy Meat"},
+    {"FishMorsels", "Fish Morsels"},
+
     -- {"Meatballs"},
     -- {"MeatyStew", "Meaty Stew"},
     -- {"MandrakeSoup", "Mandrake Soup"},

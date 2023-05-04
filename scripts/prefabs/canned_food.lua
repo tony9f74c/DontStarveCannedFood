@@ -95,6 +95,14 @@ return
     makeCannedFood("toma_roots",            "tomato",                   "TomaRoots",            "tomato_cooked"),
     makeCannedFood("watermelons",           "watermelon",               "Watermelons",          "watermelon_cooked"),
 
+    makeCannedFood("meat",                  "meat",                     "Meat",                 "cookedmeat"),
+    makeCannedFood("monster_meat",          "monstermeat",              "MonsterMeat",          "cookedmonstermeat"),
+    makeCannedFood("frog_legs",             "froglegs",                 "FrogLegs",             "froglegs_cooked"),
+    makeCannedFood("morsels",               "smallmeat",                "Morsels",              "cookedsmallmeat"),
+    makeCannedFood("raw_fish",              "fishmeat",                 "RawFish",              "fishmeat_cooked"),
+    makeCannedFood("leafy_meat",            "plantmeat",                "LeafyMeat",            "plantmeat_cooked"),
+    makeCannedFood("fish_morsels",          "fishmeat_small",           "FishMorsels",          "fishmeat_small_cooked"),
+
     bbt and makeCannedFood("apples",        "treeapple",    "Apples") or nil,
     bbt and makeCannedFood("blueberries",   "berrybl",      "Blueberries",      "berrybl_cooked") or nil,
     bbt and makeCannedFood("greenberries",  "berrygr",      "Greenberries",     "berrygr_cooked") or nil,
