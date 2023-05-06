@@ -1,7 +1,7 @@
 name = "Canned Food"
 description = "Store your food safely forever!"
 author = "Tony" -- https://steamcommunity.com/profiles/76561198002269576
-version = "1.18"
+version = "1.18b"
 forumthread = ""
 api_version = 10
 all_clients_require_mod = true

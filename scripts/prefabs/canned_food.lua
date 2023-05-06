@@ -4,8 +4,8 @@ local bbt = KnownModIndex:IsModEnabled("workshop-522117250") -- Check if Birds a
 local mfr = KnownModIndex:IsModEnabled("workshop-861013495") -- Check if More Fruits is enabled
 
 local function makeCannedFood(prefab, raw, cfg, cooked)
-    -- local mult = getConfig("cfgCanned"..cfg, "workshop-2709418733")
-    local mult = getConfig("cfgCanned"..cfg, "DontStarveCannedFood")
+    local mult = getConfig("cfgCanned"..cfg, "workshop-2709418733")
+    -- local mult = getConfig("cfgCanned"..cfg, "DontStarveCannedFood")
     
     local assets = {
         Asset("ATLAS", "images/inventoryimages/"..prefab..".xml"),
